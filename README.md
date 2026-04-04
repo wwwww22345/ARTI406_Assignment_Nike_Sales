@@ -11,17 +11,17 @@ Exploratory Data Analysis (EDA) on Nike's uncleaned sales dataset. In this proje
 
 ## Feature Descriptions
 
-**Order_ID** - Unique identifier
-**Gender_Category** - Customer groups (Men, Women, Kids)
-**Product_Line** - Product category (Running, Basketball, Lifestyle, Training, Soccer)
-**Product_Name** - product name
-**Size** - Product size (S, M, L, XL, Not Specified, etc.)
-**Units_Sold** -Purchased quantity per transaction
-**MRP** - Maximum Retail Price
-**Discount_Applied** - Discount percentage (as decimal)
-**Revenue** - Final amount paid after discount
-**Order_Date** - Transaction date
-**Sales_Channel** - Online or Retail
+**Order_ID**: Unique identifier
+**Gender_Category**: Customer groups (Men, Women, Kids)
+**Product_Line**: Product category (Running, Basketball, Lifestyle, Training, Soccer)
+**Product_Name**:product name
+**Size**: Product size (S, M, L, XL, Not Specified, etc.)
+**Units_Sold**: Purchased quantity per transaction
+**MRP**: Maximum Retail Price
+**Discount_Applied**: Discount percentage (as decimal)
+**Revenue**: Final amount paid after discount
+**Order_Date**: Transaction date
+**Sales_Channel**: Online or Retail
 
 ## Data Issues in Original Dataset
 -Missing values (Size, Units_Sold, MRP, Discount_Applied, Order_Date)
