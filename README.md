@@ -32,6 +32,12 @@ Exploratory Data Analysis (EDA) on Nike's uncleaned sales dataset. In this proje
 - Mixed date formats
 - Typos in Region names
 
+## Cleaning Summary
+- Removed 2,390 invalid rows (negative/zero units, invalid discounts)
+- Standardized date formats
+- Corrected region typos
+- Converted Units_Sold to integer type
+
 ## Purpose of Dataset
 This dataset is used for practicing data cleaning techniques and performing Exploratory Data Analysis (EDA) to identify sales patterns including best performing products, revenue by region and channel, seasonal trends, and customer segment analysis.
 
