@@ -1,43 +1,64 @@
 # ARTI406_Assignment_Nike_Sales
 
 ## Overview
-Exploratory Data Analysis (EDA) on Nike's uncleaned sales dataset. In this project indicates data cleaning, visualization, and insight generation techniques for a retail sales dataset.
+
+This repository contains two assignments completed for the ARTI 406 Machine Learning course using the Nike Sales (Uncleaned) dataset. The work covers Exploratory Data Analysis (EDA), Data Quality Assessment, Data Cleaning, Missing Value Handling, Outlier Detection, Data Normalization, and Principal Component Analysis (PCA).
 
 ## Dataset
-- **Source:** Kaggle - Nike Sales (Uncleaned Dataset)
-    - https://www.kaggle.com/datasets/nayakganesh007/nike-sales-uncleaned-dataset 
-- **Original size:** 2,500 rows, 13 columns
-- **Clean size:** 110 rows, 16 columns
+
+* **Source:** Kaggle - Nike Sales (Uncleaned Dataset)
+* https://www.kaggle.com/datasets/nayakganesh007/nike-sales-uncleaned-dataset
+* **Original size:** 2,500 rows, 13 columns
+
+## Repository Contents
+
+### Assignment 1: Exploratory Data Analysis (EDA)
+* Dataset exploration and visualization
+* Sales trends analysis
+* Revenue analysis by region and sales channel
+* Product performance analysis
+* Customer segment analysis
+* Insight generation and interpretation
+
+### Assignment 2: Data Quality Assessment and Preprocessing
+* Data quality assessment
+* Data type correction
+* Missing value handling using imputation
+* Invalid value detection and correction
+* Outlier detection and handling using IQR
+* Min-Max Normalization
+* Z-Score Standardization
+* Principal Component Analysis (PCA)
 
 ## Feature Descriptions
+* **Order_ID**: Unique transaction identifier
+* **Gender_Category**: Customer category (Men, Women, Kids)
+* **Product_Line**: Product category
+* **Product_Name**: Product name
+* **Size**: Product size
+* **Units_Sold**: Quantity sold per transaction
+* **MRP**: Maximum Retail Price
+* **Discount_Applied**: Discount percentage
+* **Revenue**: Revenue generated from the transaction
+* **Order_Date**: Transaction date
+* **Sales_Channel**: Sales channel (Online or Retail)
+* **Region**: Region of sale
+* **Profit**: Profit generated from the transaction
 
-- **Order_ID**: Unique identifier
-- **Gender_Category**: Customer groups (Men, Women, Kids)
-- **Product_Line**: Product category (Running, Basketball, Lifestyle, Training, Soccer)
-- **Product_Name**:product name
-- **Size**: Product size (S, M, L, XL, Not Specified, etc.)
-- **Units_Sold**: Purchased quantity per transaction
-- **MRP**: Maximum Retail Price
-- **Discount_Applied**: Discount percentage (as decimal)
-- **Revenue**: Final amount paid after discount
-- **Order_Date**: Transaction date
-- **Sales_Channel**: Online or Retail
-- **Region** - Indian city of sale
-- **Profit** - Profit from transaction
+## Data Quality Issues Identified
+* Missing values in multiple columns
+* Negative and zero values in Revenue and Units_Sold
+* Discounts exceeding 100%
+* Mixed date formats
+* Inconsistent categorical values and region names
 
-## Data Issues in Original Dataset
-- Missing values (Size, Units_Sold, MRP, Discount_Applied, Order_Date)
-- Negative and zero values in (Units_Sold,Revenue)
-- Discounts exceeding 100%
-- Mixed date formats
-- Typos in Region names
-
-## Cleaning Summary
-- Removed 2,390 invalid rows (negative/zero units, invalid discounts)
-- Standardized date formats
-- Corrected region typos
-- Converted Units_Sold to integer type
-
-## Purpose of Dataset
-This dataset is used for practicing data cleaning techniques and performing Exploratory Data Analysis (EDA) to identify sales patterns including best performing products, revenue by region and channel, seasonal trends, and customer segment analysis.
+## Learning Outcomes
+This project demonstrates practical applications of:
+* Exploratory Data Analysis (EDA)
+* Data Cleaning and Preprocessing
+* Missing Value Imputation
+* Outlier Detection
+* Feature Scaling
+* Principal Component Analysis (PCA)
+* Data Interpretation and Visualization
 
